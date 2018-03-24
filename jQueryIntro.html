@@ -28,10 +28,10 @@
 
     $(document).ready(function(){
       setInterval(function() {
-        $('body').animate( { backgroundColor: 'red' }, 1000)
+        $('body').animate( { backgroundColor: 'yellow' }, 1000)
+        .animate( { backgroundColor: 'red' }, 1000)
         .animate( { backgroundColor: 'green' }, 1000)
-        .animate( { backgroundColor: 'blue' }, 1000)
-        .animate( { backgroundColor: 'black' }, 1000);
+        .animate( { backgroundColor: 'blue' }, 1000);
       }, 1000);
      $('.slickCarousel').slick({
        lazyLoad: 'ondemand',
