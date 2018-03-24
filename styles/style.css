@@ -1,0 +1,16 @@
+body {
+}
+.content{
+  margin: auto;
+  padding: 20px;
+  width: 600px;
+}
+
+.slick-slider {
+  margin: auto;
+}
+
+.slickCarousel img {
+  width: 195px;
+  height: 195px;
+}
